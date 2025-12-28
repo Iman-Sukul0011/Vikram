@@ -43,3 +43,21 @@ Install the following libraries in your Arduino IDE:
 - `Adafruit MPU6050`
 - `Adafruit BMP280`
 - `Adafruit Unified Sensor`
+
+# VIKRAM 1.0: Mission Archive 🚀
+
+**VIKRAM 1.0** is a flight-proven CanSat developed by **Parikramaka (NIT Rourkela)**. This repository contains the complete mission documentation, firmware, and post-flight datasets.
+
+## 📂 Repository Contents
+- **/Firmware**: ESP32 C++ source code (VS Code/PlatformIO).
+- **/Data**: Raw telemetry from Static and Dynamic flight phases.
+- **/Docs**: Full technical mission report (PDF).
+- **/Scripts**: Python scripts for atmospheric data visualization.
+
+## 📊 Flight Data Summary
+We conducted two primary tests to validate sensor accuracy and atmospheric gradients:
+1. **Static Test:** Validating base pressure readings and sensor drift.
+2. **Dynamic Test:** High-frequency logging during active descent.
+
+## 📖 Full Documentation
+Detailed mission objectives, subsystem design, and results can be found in the [Project VIKRAM-1 Report](./Docs/Project_VIKRAM-1.pdf).
